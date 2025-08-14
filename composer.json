@@ -71,7 +71,7 @@
     "drupal/paragraphs": "^1.18",
     "drupal/pathauto": "^1.13",
     "drupal/pathologic": "^2.0@alpha",
-    "drupal/project_browser": "^1.0@beta",
+    "drupal/project_browser": "^2.1@beta",
     "drupal/quick_cache_cleaner": "^1.1",
     "drupal/redirect": "^1.10",
     "drupal/robotstxt": "^1.6",
