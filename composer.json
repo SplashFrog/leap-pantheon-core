@@ -114,7 +114,6 @@
       "drupal/core": {
         "Expand Taxonomy Term View Mode Suggestions": "https://www.drupal.org/files/issues/core-theme-suggestion-for-taxonomy-view-modes-2767243-14.patch",
         "CORS breaks with cache proxies and same origin usage.": "https://www.drupal.org/files/issues/2019-05-02/3001809-always-vary-by-origin-26.patch",
-        "Add visibility control conditions to blocks within Layout Builder": "https://www.drupal.org/files/issues/2023-12-19/drupal-n2916876-207.patch",
         "Allow views attachment display use own pager options": "https://www.drupal.org/files/issues/2020-11-29/2833734-allow-attachment-pager-42.patch",
         "htmlspecialchars_decode in PHP 8.1 cannot be NULL": "https://www.drupal.org/files/issues/2022-12-06/views-style-plugin-base--htmlspecialchars-decode--3325696-2.patch",
         "Temp. Fix for Big Pipe and Status Messages not using the template": "https://www.drupal.org/files/issues/2024-06-28/3456176-45-missing-status-messages-theme-suggestions.patch",
