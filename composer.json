@@ -116,7 +116,7 @@
         "CORS breaks with cache proxies and same origin usage.": "https://www.drupal.org/files/issues/2019-05-02/3001809-always-vary-by-origin-26.patch",
         "Allow views attachment display use own pager options": "https://www.drupal.org/files/issues/2020-11-29/2833734-allow-attachment-pager-42.patch",
         "htmlspecialchars_decode in PHP 8.1 cannot be NULL": "https://www.drupal.org/files/issues/2022-12-06/views-style-plugin-base--htmlspecialchars-decode--3325696-2.patch",
-        "Temp. Fix for Big Pipe and Status Messages not using the template": "https://www.drupal.org/files/issues/2024-06-28/3456176-45-missing-status-messages-theme-suggestions.patch",
+        "Temp. Fix for Big Pipe and Status Messages not using the template": "https://www.drupal.org/files/issues/2025-06-20/3456176-138-missing-status-messages-theme-suggestions.patch",
         "Always show the Content Moderation form": "https://www.drupal.org/files/issues/2021-10-28/2875843_show-on-published_33.patch",
         "Fix for Layout Builder + Praragraphs + Content Moderation": "https://www.drupal.org/files/issues/2025-02-19/drupal-core-3047022-115.patch",
         "Layout Builder Revision Content storage": "https://git.drupalcode.org/project/drupal/-/merge_requests/6959.diff"
