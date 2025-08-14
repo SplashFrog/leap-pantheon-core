@@ -29,7 +29,7 @@
   "require": {
     "drupal/add_content_by_bundle": "^1.2",
     "drupal/autosave_form": "^1.8",
-    "drupal/better_exposed_filters": "^7.0",
+    "drupal/better_exposed_filters": "^7.1@beta",
     "drupal/block_class": "*",
     "drupal/bpmn_io": "^2.0",
     "drupal/checklistapi": "^2.1",
