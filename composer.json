@@ -1,0 +1,152 @@
+{
+  "name": "splashfrog/pantheon-core",
+  "description": "Core Pantheon Upstream for Drupal websites.",
+  "type": "metapackage",
+  "homepage": "https://github.com/SplashFrog/leap-pantheon-core",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Splash Frog",
+      "email": "contact@splashfrog.io",
+      "homepage": "https://splashfrog.io",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/SplashFrog/leap-pantheon-core/issues",
+    "source": "https://github.com/SplashFrog/leap-pantheon-core.git"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "drupal/add_content_by_bundle": "^1.2",
+    "drupal/autosave_form": "^1.8",
+    "drupal/better_exposed_filters": "^7.0",
+    "drupal/block_class": "*",
+    "drupal/bpmn_io": "^2.0",
+    "drupal/checklistapi": "^2.1",
+    "drupal/coffee": "^2.0",
+    "drupal/config_filter": "^2.7",
+    "drupal/config_ignore": "^3.3",
+    "drupal/config_split": "^2.0",
+    "drupal/config_sync_without_site_uuid": "^1.0@beta",
+    "drupal/crop": "^2.4",
+    "drupal/dashboard": "^2.0",
+    "drupal/diff": "^1.8",
+    "drupal/easy_breadcrumb": "^2.0",
+    "drupal/eca": "^2.1",
+    "drupal/editor_advanced_link": "^2.2",
+    "drupal/environment_indicator": "^4.0",
+    "drupal/extlink": "^2.0",
+    "drupal/field_group": "^3.6",
+    "drupal/filefield_paths": "^1.0@beta",
+    "drupal/focal_point": "^2.1",
+    "drupal/gin": "^4.0",
+    "drupal/gin_lb": "^2.0@dev",
+    "drupal/google_tag": "^2.0",
+    "drupal/hreflang": "^1.15",
+    "drupal/imagemagick": "^4.0",
+    "drupal/jquery_ui_resizable": "^2.1",
+    "drupal/layout_builder_lock": "^2.0@RC",
+    "drupal/layout_builder_modal": "^2.0",
+    "drupal/layout_builder_restrictions": "^3.0",
+    "drupal/layout_builder_styles": "^2.1",
+    "drupal/layout_disable": "^2.0",
+    "drupal/link_attributes": "^2.1",
+    "drupal/linkit": "^7.0",
+    "drupal/media_bulk_upload": "3.0.x-dev@dev",
+    "drupal/media_entity_download": "^2.4",
+    "drupal/media_entity_file_replace": "^1.3",
+    "drupal/menu_link_attributes": "^1.5",
+    "drupal/metatag": "^2.1",
+    "drupal/moderated_content_bulk_publish": "^2.0",
+    "drupal/paragraphs": "^1.18",
+    "drupal/pathauto": "^1.13",
+    "drupal/pathologic": "^2.0@alpha",
+    "drupal/project_browser": "^1.0@beta",
+    "drupal/quick_cache_cleaner": "^1.1",
+    "drupal/redirect": "^1.10",
+    "drupal/robotstxt": "^1.6",
+    "drupal/sam": "^1.3",
+    "drupal/scheduler": "^2.2",
+    "drupal/scheduler_content_moderation_integration": "^3.0",
+    "drupal/search404": "^2.2@RC",
+    "drupal/search_api": "^1.37",
+    "drupal/search_api_exclude": "^2.0",
+    "drupal/seckit": "^2.0",
+    "drupal/selective_better_exposed_filters": "^3.0",
+    "drupal/simple_sitemap": "^4.2",
+    "drupal/stable": "^2.1",
+    "drupal/tagify": "^1.2",
+    "drupal/token": "^1.15",
+    "drupal/trash": "^3.0",
+    "drupal/tvi": "^2.0",
+    "drupal/twig_field_value": "^2.0",
+    "drupal/twig_tweak": "^3.4",
+    "drupal/ultimate_cron": "^2.0@beta",
+    "drupal/viewfield": "^3.0@beta",
+    "drupal/views_bulk_operations": "^4.3",
+    "drupal/views_infinite_scroll": "^2.0",
+    "drupal/workbench_email": "^3.0",
+    "drupal/yoast_seo": "^2.1",
+    "drupal/core-recommended": "^11"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "enable-patching": true,
+    "composer-exit-on-patch-failure": false,
+    "patchLevel": {
+      "drupal/core": "-p2"
+    },
+    "patches": {
+      "drupal/core": {
+        "Expand Taxonomy Term View Mode Suggestions": "https://www.drupal.org/files/issues/core-theme-suggestion-for-taxonomy-view-modes-2767243-14.patch",
+        "CORS breaks with cache proxies and same origin usage.": "https://www.drupal.org/files/issues/2019-05-02/3001809-always-vary-by-origin-26.patch",
+        "Add visibility control conditions to blocks within Layout Builder": "https://www.drupal.org/files/issues/2023-12-19/drupal-n2916876-207.patch",
+        "Allow views attachment display use own pager options": "https://www.drupal.org/files/issues/2020-11-29/2833734-allow-attachment-pager-42.patch",
+        "htmlspecialchars_decode in PHP 8.1 cannot be NULL": "https://www.drupal.org/files/issues/2022-12-06/views-style-plugin-base--htmlspecialchars-decode--3325696-2.patch",
+        "Temp. Fix for Big Pipe and Status Messages not using the template": "https://www.drupal.org/files/issues/2024-06-28/3456176-45-missing-status-messages-theme-suggestions.patch",
+        "Fix Settings Tray JavaScript find element by ID error": "https://www.drupal.org/files/issues/2024-06-30/contextual_links_disappear_intermittently_leading_to_console_errors-3458067-8_0.patch",
+        "Always show the Content Moderation form": "https://www.drupal.org/files/issues/2021-10-28/2875843_show-on-published_33.patch",
+        "Fix for Layout Builder + Praragraphs + Content Moderation": "https://www.drupal.org/files/issues/2025-02-19/drupal-core-3047022-115.patch",
+        "Layout Builder Revision Content storage": "https://git.drupalcode.org/project/drupal/-/merge_requests/6959.diff"
+      },
+      "drupal/entity_reference_revisions": {
+        "Patch for Revisions of Paragraphs": "https://www.drupal.org/files/issues/2024-03-16/3428639-7.patch"
+      },
+      "drupal/layout_builder_restrictions": {
+        "Fix NULL on 3rd Party Settings.": "https://git.drupalcode.org/project/layout_builder_restrictions/-/merge_requests/39.diff"
+      },
+      "drupal/media_entity_download": {
+        "Fix Layout Builder Compatability": "https://www.drupal.org/files/issues/2022-05-19/media_entity_download-3057444-7.patch"
+      },
+      "drupal/media_entity_file_replace": {
+        "Add cache Purging Tags": "https://git.drupalcode.org/project/media_entity_file_replace/-/merge_requests/4.diff"
+      },
+      "drupal/paragraphs": {
+        "Patch for reverting revisions": "https://www.drupal.org/files/issues/2022-10-26/3084934-13_combine_3090200-22.patch"
+      },
+      "drupal/tvi": {
+        "Allow TVI views to respect view permissions.": "https://www.drupal.org/files/issues/2021-07-16/tvi-Views_permissions_not_respected_by_TVI-2758201-29-8.x.patch.txt"
+      },
+      "drupal/views_infinite_scroll": {
+        "infinite scroll does not work for multiple views on a single page": "https://www.drupal.org/files/issues/2021-03-23/2877652-29-fix_views_infinite_scroll_pager_when_multi_views_on_single_page.patch"
+      },
+      "drupal/workbench_email": {
+        "Fix Compatability with Trash Module.": "https://www.drupal.org/files/issues/2025-03-27/workbench-email-issue-3515843-02.patch"
+      }
+    }
+  }
+}
