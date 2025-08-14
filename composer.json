@@ -118,16 +118,12 @@
         "Allow views attachment display use own pager options": "https://www.drupal.org/files/issues/2020-11-29/2833734-allow-attachment-pager-42.patch",
         "htmlspecialchars_decode in PHP 8.1 cannot be NULL": "https://www.drupal.org/files/issues/2022-12-06/views-style-plugin-base--htmlspecialchars-decode--3325696-2.patch",
         "Temp. Fix for Big Pipe and Status Messages not using the template": "https://www.drupal.org/files/issues/2024-06-28/3456176-45-missing-status-messages-theme-suggestions.patch",
-        "Fix Settings Tray JavaScript find element by ID error": "https://www.drupal.org/files/issues/2024-06-30/contextual_links_disappear_intermittently_leading_to_console_errors-3458067-8_0.patch",
         "Always show the Content Moderation form": "https://www.drupal.org/files/issues/2021-10-28/2875843_show-on-published_33.patch",
         "Fix for Layout Builder + Praragraphs + Content Moderation": "https://www.drupal.org/files/issues/2025-02-19/drupal-core-3047022-115.patch",
         "Layout Builder Revision Content storage": "https://git.drupalcode.org/project/drupal/-/merge_requests/6959.diff"
       },
       "drupal/entity_reference_revisions": {
         "Patch for Revisions of Paragraphs": "https://www.drupal.org/files/issues/2024-03-16/3428639-7.patch"
-      },
-      "drupal/layout_builder_restrictions": {
-        "Fix NULL on 3rd Party Settings.": "https://git.drupalcode.org/project/layout_builder_restrictions/-/merge_requests/39.diff"
       },
       "drupal/media_entity_download": {
         "Fix Layout Builder Compatability": "https://www.drupal.org/files/issues/2022-05-19/media_entity_download-3057444-7.patch"
