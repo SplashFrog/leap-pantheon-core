@@ -50,7 +50,7 @@
     "drupal/filefield_paths": "^1.0@beta",
     "drupal/focal_point": "^2.1",
     "drupal/gin": "^5.0",
-    "drupal/gin_lb": "^2.0@dev",
+    "drupal/gin_lb": "^3.0@beta",
     "drupal/google_tag": "^2.0",
     "drupal/hreflang": "^1.15",
     "drupal/imagemagick": "^4.0",
