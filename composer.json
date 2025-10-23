@@ -30,7 +30,7 @@
     "drupal/add_content_by_bundle": "^1.2",
     "drupal/autologout": "^2.0",
     "drupal/autosave_form": "^1.8",
-    "drupal/better_exposed_filters": "^7.1@beta",
+    "drupal/better_exposed_filters": "^7.0",
     "drupal/blazy": "^3.0",
     "drupal/block_class": "*",
     "drupal/bpmn_io": "^2.0",
