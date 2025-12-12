@@ -130,9 +130,6 @@
         "Fix for Layout Builder + Praragraphs + Content Moderation": "https://www.drupal.org/files/issues/2025-02-19/drupal-core-3047022-115.patch",
         "Layout Builder Revision Content storage": "https://git.drupalcode.org/project/drupal/-/merge_requests/6959.diff"
       },
-      "drupal/entity_reference_revisions": {
-        "Patch for Revisions of Paragraphs": "https://www.drupal.org/files/issues/2024-03-16/3428639-7.patch"
-      },
       "drupal/media_entity_download": {
         "Fix Layout Builder Compatability": "https://www.drupal.org/files/issues/2022-05-19/media_entity_download-3057444-7.patch"
       },
