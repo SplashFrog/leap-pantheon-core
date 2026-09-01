@@ -27,13 +27,13 @@
     }
   ],
   "require": {
-    "drupal/add_content_by_bundle": "^1.2",
+    "drupal/add_content_by_bundle": "^2.0",
     "drupal/autologout": "^2.0",
     "drupal/autosave_form": "^1.11",
     "drupal/better_exposed_filters": "^7.1",
     "drupal/blazy": "^3.0",
-    "drupal/block_class": "*",
-    "drupal/bpmn_io": "^2.0",
+    "drupal/block_class": "^4.0",
+    "drupal/bpmn_io": "^3.0",
     "drupal/checklistapi": "^2.1",
     "drupal/coffee": "^2.0",
     "drupal/config_filter": "^2.7",
@@ -42,19 +42,19 @@
     "drupal/config_sync_without_site_uuid": "^1.0@beta",
     "drupal/crop": "^2.6",
     "drupal/dashboard": "^2.2",
-    "drupal/diff": "^2.0@beta",
+    "drupal/diff": "^2.1",
     "drupal/easy_breadcrumb": "^2.0",
-    "drupal/eca": "^2.1",
+    "drupal/eca": "^3.1",
     "drupal/editor_advanced_link": "^2.3",
     "drupal/environment_indicator": "^4.1@RC",
-    "drupal/extlink": "^2.0",
-    "drupal/field_group": "^4.0",
+    "drupal/extlink": "^3.0",
+    "drupal/field_group": "^4.1@alpha",
     "drupal/flood_control": "^3.0",
     "drupal/focal_point": "^2.1",
     "drupal/gin": "^5.0",
     "drupal/gin_lb": "^3.0@beta",
     "drupal/google_tag": "^2.0",
-    "drupal/hreflang": "^1.15",
+    "drupal/hreflang": "^2.0",
     "drupal/imagemagick": "^5.0",
     "drupal/jquery_ui_resizable": "^2.1",
     "drupal/layoutbuilder_search_api": "^1.0",
@@ -65,46 +65,47 @@
     "drupal/layout_disable": "^2.0",
     "drupal/link_attributes": "^2.1",
     "drupal/linkit": "^7.0",
-    "drupal/media_bulk_upload": "3.0.x-dev@dev",
+    "drupal/media_bulk_upload": "^3.0",
     "drupal/media_entity_download": "^2.4",
     "drupal/menu_link_attributes": "^1.7",
     "drupal/metatag": "^2.2",
-    "drupal/moderated_content_bulk_publish": "^3.0@beta",
-    "drupal/paragraphs": "^1.20",
-    "drupal/pathauto": "^1.14",
+    "drupal/moderated_content_bulk_publish": "^3.0@RC",
+    "drupal/paragraphs": "^1.23",
+    "drupal/pathauto": "^1.15",
     "drupal/pathologic": "^2.0",
-    "drupal/project_browser": "^2.1@beta",
+    "drupal/project_browser": "^2.1",
     "drupal/quick_cache_cleaner": "^1.1",
     "drupal/redirect": "^1.13",
     "drupal/robotstxt": "^1.6",
     "drupal/sam": "^1.3",
-    "drupal/scheduler": "^2.2",
-    "drupal/scheduler_content_moderation_integration": "^3.0",
+    "drupal/scheduler": "^2.3",
+    "drupal/scheduler_content_moderation_integration": "^4.0@alpha",
     "drupal/search404": "^2.2@RC",
-    "drupal/search_api": "^1.40",
+    "drupal/search_api": "^1.41",
     "drupal/search_api_exclude": "^2.0",
     "drupal/search_api_exclude_entity": "^3.0",
-    "drupal/search_api_pantheon": "^8.4",
-    "drupal/search_api_solr": "^4.3",
+    "drupal/search_api_pantheon": "^8.5",
+    "drupal/search_api_solr": "^4.4",
     "drupal/smart_trim": "^2.3",
-    "drupal/stage_file_proxy": "^3.1",
+    "drupal/stage_file_proxy": "^4.0",
     "drupal/seckit": "^2.0",
     "drupal/selective_better_exposed_filters": "^3.0",
     "drupal/simple_sitemap": "^4.2",
     "drupal/stable": "^2.1",
-    "drupal/tagify": "^1.2",
+    "drupal/tagify": "^2.0",
     "drupal/token": "^1.17",
     "drupal/trash": "^3.0",
     "drupal/tvi": "^2.0",
     "drupal/twig_field_value": "^2.0",
-    "drupal/twig_tweak": "^3.4",
+    "drupal/twig_tweak": "^4.0@alpha",
     "drupal/ultimate_cron": "^2.0@beta",
     "drupal/viewfield": "^3.0@beta",
     "drupal/views_bulk_operations": "^4.4",
     "drupal/views_infinite_scroll": "^2.0",
     "drupal/workbench_email": "^3.0",
     "drupal/yoast_seo": "^2.2",
-    "drupal/core-recommended": "^11"
+    "drupal/core-recommended": "^11",
+    "splashfrog/leap_file_manager": "^1.0"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -129,14 +130,20 @@
         "Layout Builder Revision Content storage": "https://git.drupalcode.org/project/drupal/-/merge_requests/6959.diff",
         "Fatal error getCacheTags() on null on admin/content Views displays when views": "https://www.drupal.org/files/issues/2020-09-08/get_cache_tags_null-3169694-2.patch"
       },
+      "drupal/easy_breadcrumb": {
+        "3601104 - Viewing Node Revision Missing _title_callback": "https://git.drupalcode.org/project/easy_breadcrumb/-/merge_requests/173.diff"
+      },
       "drupal/media_entity_download": {
         "Fix Layout Builder Compatability": "https://www.drupal.org/files/issues/2022-05-19/media_entity_download-3057444-7.patch"
       },
-      "drupal/media_entity_file_replace": {
-        "Add cache Purging Tags": "https://git.drupalcode.org/project/media_entity_file_replace/-/merge_requests/4.diff"
+      "drupal/layoutbuilder_search_api": {
+        "3566471 - Add Type Declaration to $sectionStorageManager": "https://git.drupalcode.org/project/layoutbuilder_search_api/-/merge_requests/4.diff"
       },
       "drupal/paragraphs": {
-        "Patch for reverting revisions": "https://www.drupal.org/files/issues/2022-10-26/3084934-13_combine_3090200-22.patch"
+        "3090200 - Patch for reverting revisions": "https://git.drupalcode.org/project/paragraphs/-/merge_requests/265.diff"
+      },
+      "drupal/scheduler": {
+        "3595625 - Circular Dependency Fix": "https://www.drupal.org/files/issues/2026-07-20/scheduler-3595625-circular-dependency.patch"
       },
       "drupal/tvi": {
         "Allow TVI views to respect view permissions.": "https://www.drupal.org/files/issues/2021-07-16/tvi-Views_permissions_not_respected_by_TVI-2758201-29-8.x.patch.txt"
@@ -145,7 +152,7 @@
         "infinite scroll does not work for multiple views on a single page": "https://www.drupal.org/files/issues/2021-03-23/2877652-29-fix_views_infinite_scroll_pager_when_multi_views_on_single_page.patch"
       },
       "drupal/workbench_email": {
-        "Fix Compatability with Trash Module.": "https://www.drupal.org/files/issues/2025-03-27/workbench-email-issue-3515843-02.patch"
+        "Fix Compatability with Trash Module.": "https://www.drupal.org/files/issues/2026-07-02/workbench_email-3515843-trash-307.patch"
       }
     }
   }
